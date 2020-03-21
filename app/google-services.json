@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1657620848",
+    "firebase_url": "https://apna-tailer.firebaseio.com",
+    "project_id": "apna-tailer",
+    "storage_bucket": "apna-tailer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1657620848:android:b7dbcb0b54f1a4fef227b5",
+        "android_client_info": {
+          "package_name": "com.example.apnatailer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1657620848-vsaq3s5i5vnn2vc9trvt84di7hjrga0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apnatailer",
+            "certificate_hash": "a4e820dd0ab6c8367d04b3617a3529241f6a99e6"
+          }
+        },
+        {
+          "client_id": "1657620848-n4najs19atm5gfgb2597mv9ufggbi9ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCPf9N3a59l37Zl2bGdH_8nGnsIuhEAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1657620848-n4najs19atm5gfgb2597mv9ufggbi9ji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

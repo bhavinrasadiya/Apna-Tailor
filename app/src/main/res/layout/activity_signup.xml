@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="271dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/signup" />
+
+    <EditText
+
+        android:id="@+id/etSName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/user_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:letterSpacing="0.1"
+        android:padding="15dp"
+        android:paddingLeft="100dp" />
+
+    <EditText
+        android:id="@+id/etSMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Mobile Number "
+        android:inputType="phone"
+        android:letterSpacing="0.1"
+        android:maxLength="10"
+        android:padding="15dp"
+        android:paddingLeft="100dp" />
+
+    <EditText
+        android:id="@+id/etSEmail"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_email_"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="E-mail "
+        android:inputType="textEmailAddress"
+        android:letterSpacing="0.1"
+        android:padding="15dp"
+        android:paddingLeft="100dp" />
+
+
+    <EditText
+        android:id="@+id/etSPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:letterSpacing="0.1"
+        android:padding="15dp"
+        android:paddingLeft="100dp"/>
+
+
+
+    <EditText
+
+
+        android:id="@+id/etSConfirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:letterSpacing="0.1"
+        android:padding="15dp"
+        android:paddingLeft="100dp" />
+
+    <Button
+        android:id="@+id/btnSSingup"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_shap"
+        android:text="S I G N U P"
+        android:textColor="@color/w" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="I have an account ?  " />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Login"
+            android:textColor="#1B6ACE" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
